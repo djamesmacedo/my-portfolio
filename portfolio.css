@@ -1,0 +1,120 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    font-family: var(--corpo1);
+}
+:root {
+    --titulo: 'Lobster', cursive;
+    --corpo: 'Raleway', sans-serif;
+    --corpo1: 'Roboto', sans-serif;
+    --cor1: #03A688;
+    --cor3: #262626;  
+    --cor4: #87989e;
+    --cor4: #A6A6A6;
+    --cor6: #D9D9D9;  
+}
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: start;
+    /* outline: 1px solid red; */
+}
+.logo-first {
+    position: fixed;
+    right: 51.4%;
+    font-family: var(--titulo);
+    color: #ffff;    
+    font-size: 2vw; 
+    text-shadow: 1px 1px 10px rgb(61, 61, 61);
+}
+.logo-last {
+    position: fixed;
+    right: 44.6%;
+    font-family: var(--titulo);
+    color: var(--cor4);    
+    font-size: 2vw; 
+    text-shadow: 1px 1px 10px rgb(61, 61, 61);
+}
+ul {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;   
+}
+.port-btn {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    letter-spacing: 2px;
+    border-radius: 50px;
+    text-shadow: 1px 1px 20px rgb(61, 61, 61);
+}
+.port-btn:hover {
+    background-color: var(--cor1);
+    color: black;
+    transition-duration: 700ms;
+}
+li > a {
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #ffff;
+    font-size: 120%;
+    
+}
+.blog-btn:hover, .sobre-btn:hover {
+    background-color: var(--cor1);
+    color: black;
+    border-radius: 50px;
+    transition-duration: 700ms;
+    
+}
+.img-perfil {
+    height: 150px;
+    position: fixed;
+    top: 8%;
+    left: 45%;
+}
+.home-ico {
+    height: 3.2%;
+    position: fixed;
+    top: 4.3%;
+    right: 4.6%; 
+}
+.home-ico:hover {
+    transform: scale(130%);
+    transition-duration: 0.5s;
+}
+.phone-ico {
+    height: 2.5%;
+    position: fixed;
+    top: 4.8%;
+    right: 9%;
+}
+.phone-ico:hover {
+    transform: scale(130%);
+    transition-duration: 0.5s;
+}
+.github-ico {
+    height: 3.4%;
+    position: fixed;
+    top: 4.5%;
+    right: 11.79%;
+}
+.github-ico:hover {
+    transform: scale(130%);
+    transition-duration: 0.5s;
+}
+.linkedin-ico {
+    height: 2.95%;
+    position: fixed;
+    top: 4.65%;
+    right: 15%;
+}
+.linkedin-ico:hover {
+    transform: scale(130%);
+    transition-duration: 0.5s;
+}
